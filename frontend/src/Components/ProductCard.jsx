@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 import { addToCart } from '../services/cartService';
 import { jwtDecode } from 'jwt-decode';
 import { useState } from 'react';
+import Alert from "@mui/material/Alert"
 
 /**
  * @param {{ product: Product }} props
