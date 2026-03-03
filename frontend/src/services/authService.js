@@ -1,4 +1,4 @@
-import api from "./api/axios";
+import api from './api/axios'
 
 /**
  * @typedef {Object} LoginRequest
@@ -21,7 +21,7 @@ export const login = async (credentials) => {
   };
 
 export const registerUser = (data) => {
-    return axios.post('/api/auth/register', data);
+    return api.post('/register', data);
   };
 
 export const getUserInitial = () => {
