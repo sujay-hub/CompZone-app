@@ -47,5 +47,5 @@ export const fetchPaginatedProducts = (page, size = 5, categoryId = '') => {
     params.append('categoryId', categoryId);
   }
 
-  return api.get(`http://localhost:8080/pagination?${params.toString()}`);
+  return api.get(`/pagination?${params.toString()}`);
 };
